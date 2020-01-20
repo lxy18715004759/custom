@@ -1,0 +1,37 @@
+html,body {
+  font-size: 12px;
+	height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.page {
+  min-height: calc(100% - 54px);
+
+  &.table-page {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+    padding: 20px 24px 24px;
+  }
+}
+
+.full-width {
+  width: 100%;
+}
+
+.tac {
+  text-align: center;
+}
+
+#nprogress {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 3000;
+	width: 100%;
+	.bar {
+		position: relative;
+		height: 3px;
+	}
+}
