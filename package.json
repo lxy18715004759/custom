@@ -20,7 +20,7 @@
     "nprogress": "^0.2.0",
     "qiniu-js": "^2.5.5",
     "screenfull": "^5.0.0",
-    "three": "^0.111.0",
+    "three": "^0.125.0",
     "uuid": "^3.3.3",
     "vanilla-tilt": "^1.7.0",
     "vue": "^2.6.10",
